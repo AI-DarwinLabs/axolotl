@@ -1,0 +1,7 @@
+# bitsandbytes AMD
+bitsandbytes @ https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/.../bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl
+
+# PyTorch ROCm
+torch==2.5.0 --extra-index-url https://download.pytorch.org/whl/test/rocm6.2/
+torchvision==0.16.0 --extra-index-url https://download.pytorch.org/whl/test/rocm6.2/
+torchaudio==2.0.2 --extra-index-url https://download.pytorch.org/whl/test/rocm6.2/

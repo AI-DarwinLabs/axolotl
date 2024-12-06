@@ -144,6 +144,14 @@ pip3 install packaging ninja
 pip3 install -e '.[flash-attn,deepspeed]'
 ```
 
+### AMD/ROCm Support
+
+**Note:** Axolotl can also run on AMD GPUs via ROCm. A minimum of **ROCm 6.2** is required.  
+After installing Axolotl and the AMD-specific dependencies (`requirements-amd.txt`), run the `install_post_amd.sh` script to finalize the setup (compiling Flash-Attention, DeepSpeed):
+
+```bash
+bash install_post_amd.sh
+
 ### Usage
 ```bash
 # preprocess datasets - optional but recommended
