@@ -1,5 +1,5 @@
 # bitsandbytes AMD
-bitsandbytes @ https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/.../bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl
+bitsandbytes @ pip install --no-deps --force-reinstall 'https://github.com/bitsandbytes-foundation/bitsandbytes/releases/download/continuous-release_multi-backend-refactor/bitsandbytes-0.44.1.dev0-py3-none-manylinux_2_24_x86_64.whl'
 
 # PyTorch ROCm
 torch==2.5.0 --extra-index-url https://download.pytorch.org/whl/test/rocm6.2/
